@@ -1,3 +1,7 @@
-if (temperature<-40 ||temperature>40){
-console.log("Maybe going outside isn't such a great idea...");
+function whichSchool(age) {
+  return (age > 13) ? "Elementary School"
+    : (age >= 13 && age <= 18) ? "Secondary School"
+    : "Lighthouse Labs";
 }
+
+console.log(whichSchool(15));
